@@ -4,6 +4,7 @@
 Mall-repo för kursen `Grafiska Verktyg`
 
 Design: Rent-a-ghost av Henrietta Lybeck
+
 Länk till Figma: https://www.figma.com/file/dupoSJVFdWQIN8pHvkt7XL/Untitled?node-id=3%3A22
 
 Alla resurser så som fonter och bilder ligger länkade i Figma-dokumentet.
