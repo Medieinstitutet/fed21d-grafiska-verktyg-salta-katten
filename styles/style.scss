@@ -6,3 +6,7 @@ body {
 @import "./var";
 @import "./fontDeclaration";
 @import "./header";
+
+.displayNone {
+    display: none !important; 
+}
