@@ -8,6 +8,7 @@
     bottom: 0px;
     @include flexCol();
     align-items: center;
+    z-index: 2;
     .greenLine {
         background-color: $Slime;
         width: 95%;

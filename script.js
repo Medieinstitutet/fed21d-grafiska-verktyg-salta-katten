@@ -8,3 +8,19 @@ dripBurger.addEventListener("click", () => {
     topLayerClosed.classList.toggle("displayNone");
     topLayerOpen.classList.toggle("displayNone");
 });
+
+let cookieButton = document.querySelectorAll(".cookieButton");
+let cookieButtonText = document.querySelectorAll(".cookieButtonText");
+let cookieDisclaimer = document.querySelector(".cookieDisclaimer");
+
+cookieButton.forEach(button => {
+    button.addEventListener("click", () => {
+        cookieDisclaimer.classList.add("displayNone");
+    });
+});
+
+cookieButtonText.forEach(text => {
+    text.addEventListener("click", () => {
+        cookieDisclaimer.classList.add("displayNone");
+    });
+});
