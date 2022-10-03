@@ -1,0 +1,18 @@
+.slogan {
+    width: 100vw;
+    @include flexCol();
+    align-items: center;
+    background-image: url("/images/small/simom-caban-HQy0QxO2Dxs-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150vw;
+    min-height: 400px;
+    padding-top: 4em;
+    position: relative;
+    h1 {
+        margin: 0.2em 0 0 0;
+    }
+    h2 {
+        margin: -1em 0 0 0;
+    }
+}

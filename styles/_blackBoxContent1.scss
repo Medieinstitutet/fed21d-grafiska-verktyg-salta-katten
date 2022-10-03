@@ -1,0 +1,25 @@
+.blackBoxContent1 {
+    background-color: $DarkNight;
+    @include flexCenter();
+    flex-direction: column;
+    padding: 1em;
+    z-index: 1;
+    position: relative;
+    p {
+        color: $PaleGhost;
+        text-align: center;
+        margin-top: 0;
+    }
+    h2 {
+        text-align: center;
+    }
+    .bookingButton {
+        @include flexCenter();
+        flex-direction: column;
+        h3 {
+            position: relative;
+            margin-top: -6em;
+            color: $DarkNight;
+        }
+    }
+}

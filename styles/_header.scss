@@ -1,15 +1,12 @@
 header {
-    background-image: url("/images/small/simom-caban-HQy0QxO2Dxs-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 150vw;
-    min-height: 500px;
-    @include flexCol();
-    align-items: flex-end;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    z-index: 11;
     .dripBurger {
-        margin: 1em 1em 0 0;
         cursor: pointer;
-        z-index: 1;
+        z-index: 10;
+        position: relative;
         .topLayerClosed {
             height: 0.9em;
             @include flexCol();
@@ -44,22 +41,14 @@ header {
             margin-top: 0.4em;
         }
     }
-    .slogan {
-        width: 100vw;
-        @include flexCol();
-        align-items: center;
-        h1 {
-            margin: 0.2em 0 0 0;
-        }
-        h2 {
-            margin: -1em 0 0 0;
-        }
-    }
     .openMenu {
         position: fixed;
         height: 100vh;
         width: 100vw;
         background-color: $DarkNight;
+        top: 0;
+        left: 0;
+        z-index: 9;
         ul {
             @include flexCol();
             align-items: center;

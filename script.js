@@ -24,3 +24,11 @@ cookieButtonText.forEach(text => {
         cookieDisclaimer.classList.add("displayNone");
     });
 });
+
+let mobileMenuCLose = document.querySelectorAll(".mobileMenuClose");
+
+mobileMenuCLose.forEach(item => {
+    item.addEventListener("click", () => {
+        openMenu.classList.add("displayNone");
+    });
+});
