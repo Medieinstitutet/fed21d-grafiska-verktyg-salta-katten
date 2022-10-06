@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 @import "./var";
@@ -9,6 +10,10 @@ body {
 @import "./header";
 @import "./slogan";
 @import "./blackBoxContent1";
+@import "./blackBoxContent2";
+@import "./blackBoxContent3";
+@import "./footer";
+@import "./scrollToTopArrow";
 
 .ghostBackground2 {
     background-image: url("/images/small/florian-lidin-wbTapOXJVhU-unsplash.jpg");
@@ -17,6 +22,14 @@ body {
     background-size: 110vw;
     min-height: 500px;
     margin-top: -5em;
+}
+
+.ghostBackground3 {
+    background-image: url("/images/small/febe-vanermen-fwkj0kD-26A-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110vw;
+    min-height: 464px;
 }
 
 .displayNone {

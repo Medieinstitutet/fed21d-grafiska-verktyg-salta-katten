@@ -1,0 +1,39 @@
+.blackBoxContent2 {
+    background-color: $DarkNight;
+    min-height: 19em;
+    padding-top: 1em;
+    position: relative;
+    @include flexCol();
+    align-items: center;
+    #left {
+        position: absolute;
+        bottom: 2em;
+        left: 1em;
+        cursor: pointer;
+    }
+    #right {
+        position: absolute;
+        bottom: 2em;
+        right: 1em;
+        cursor: pointer;
+    }
+    h2 {
+        text-align: center;
+        margin: 0 0 1em 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+            font-family: "Thasadith";
+            text-align: center;
+            color: $PaleGhost;
+            padding: 0 1em;
+            p {
+                text-align: center;
+                margin: 0 0 0.5em 0;
+            }
+        }
+    }
+}

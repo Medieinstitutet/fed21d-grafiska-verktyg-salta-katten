@@ -16,10 +16,12 @@
     .bookingButton {
         @include flexCenter();
         flex-direction: column;
+        cursor: pointer;
         h3 {
             position: relative;
             margin-top: -6em;
             color: $DarkNight;
+            cursor: pointer;
         }
     }
 }

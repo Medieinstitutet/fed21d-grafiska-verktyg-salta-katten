@@ -1,0 +1,47 @@
+.blackBoxContent3 {
+    background-color: $DarkNight;
+    @include flexCol();
+    justify-content: center;
+    h2 {
+        text-align: center;
+    }
+    p {
+        color: $PaleGhost;
+        text-align: center;
+        padding: 0 1em;
+    }
+    form {
+        @include flexCol();
+        padding: 1 1em;
+        margin: 0;
+        input, textarea {
+            margin-bottom: 1em;
+            border: 2px solid $Pumpkin;
+            background-color: $DarkNight;
+            padding: 1rem 0.5rem;
+            color: $Slime;
+            font-family: "Thasadith";
+            font-size: 1.25rem;
+            &:hover {
+                outline: 0;
+            }
+        }
+        textarea {
+            height: 6em;
+        }
+    }
+    .formButton {
+        @include flexCenter();
+        flex-direction: column;
+        img {
+            width: 10em;
+            cursor: pointer;
+        }
+        h3 {
+            position: relative;
+            margin: -5.75em 0 1.25em 0;
+            color: $DarkNight;
+            cursor: pointer;
+        }
+    }
+}
