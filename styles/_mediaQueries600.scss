@@ -1,0 +1,93 @@
+@media screen and (min-width: 600px) {
+    #scrollToTopArrow {
+        right: 5em;
+    }
+    header {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        .dripBurger {
+            display: none;
+        }
+        nav {
+            display: block;
+            ul {
+                display: flex;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                width: 450px;
+                justify-content: space-between;
+                li {
+                    @include flexCol();
+                    cursor: pointer;
+                    h2 {
+                        color: $Slime;
+                        margin: 0;
+                    }
+                    img {
+                        opacity: 0;
+                        transition: ease-in-out 250ms;
+                    }
+                    &:hover img {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .slogan {
+            padding-top: 6em;
+            background-image: url("/images/large/simom-caban-HQy0QxO2Dxs-unsplash.jpg");
+            min-height: 1000px;
+            background-size: 160vw;
+            background-position: center bottom;
+        }
+        .blackBoxContent1 {
+            position: absolute;
+            width: 344px;
+            padding: 1.5em 3.5em;
+            top: 700px;
+            left: 50%;
+            transform: translateX(-50%);
+            .bookingButton {
+                position: absolute;
+                top: -250px;
+                right: -50px;
+            }
+        }
+        .ghostBackground2 {
+            background-image: url("/images/large/florian-lidin-wbTapOXJVhU-unsplash.jpg");
+            min-height: 890px;
+            background-position: center;
+        }
+        .blackBoxContent2 {
+            position: absolute;
+            width: 456px;
+            top: 1300px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .ghostBackground3 {
+            background-image: url("/images/large/febe-vanermen-fwkj0kD-26A-unsplash.jpg");
+            min-height: 1000px;
+        }
+        .blackBoxContent3 {
+            position: absolute;
+            width: 456px;
+            top: 1800px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    footer {
+        padding: 2.25rem;
+        div {
+            width: 22em;
+            img {
+                width: 100px;
+            }
+        }
+    }
+}

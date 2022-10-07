@@ -35,3 +35,6 @@ body {
 .displayNone {
     display: none !important; 
 }
+
+@import "./mediaQueries600";
+@import "./mediaQueries1000";

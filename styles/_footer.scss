@@ -7,7 +7,6 @@
 footer {
     @include flexCenter();
     background-color: $DarkNight;
-    justify-content: space-around;
     padding: 4rem 3rem 1.5rem 3rem;
     div {
         width: 16em;
