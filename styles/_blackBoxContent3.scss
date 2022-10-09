@@ -1,7 +1,7 @@
 .blackBoxContent3 {
     background-color: $DarkNight;
-    @include flexCol();
-    justify-content: center;
+    @include flexCenter();
+    flex-direction: column;
     h2 {
         text-align: center;
     }
@@ -12,8 +12,10 @@
     }
     form {
         @include flexCol();
+        align-items: center;
         padding: 1 1em;
         margin: 0;
+        width: 90%;
         input, textarea {
             margin-bottom: 1em;
             border: 2px solid $Pumpkin;
@@ -22,6 +24,7 @@
             color: $Slime;
             font-family: "Thasadith";
             font-size: 1.25rem;
+            width: 100%;
             &:hover {
                 outline: 0;
             }

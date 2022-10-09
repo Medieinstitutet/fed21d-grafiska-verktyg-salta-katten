@@ -37,12 +37,14 @@
         }
     }
     main {
-        .slogan {
-            padding-top: 6em;
+        .ghostBackground1 {
             background-image: url("/images/large/simom-caban-HQy0QxO2Dxs-unsplash.jpg");
-            min-height: 1000px;
+            min-height: 1100px;
             background-size: 160vw;
             background-position: center bottom;
+        }
+        .slogan {
+            top: 6em;
         }
         .blackBoxContent1 {
             position: absolute;
