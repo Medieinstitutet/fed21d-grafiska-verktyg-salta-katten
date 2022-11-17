@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+@import "./var";
+@import "./fontDeclaration";
+@import "./cookie";
+@import "./header";
+@import "./slogan";
+@import "./blackBoxContent1";
+@import "./blackBoxContent2";
+@import "./blackBoxContent3";
+@import "./footer";
+@import "./scrollToTopArrow";
+
+.ghostBackground1 {
+    background-image: url("/images/small/simom-caban-HQy0QxO2Dxs-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150vw;
+    min-height: 450px;
+}
+
+.ghostBackground2 {
+    background-image: url("/images/small/florian-lidin-wbTapOXJVhU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110vw;
+    min-height: 500px;
+}
+
+.ghostBackground3 {
+    background-image: url("/images/small/febe-vanermen-fwkj0kD-26A-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110vw;
+    min-height: 464px;
+}
+
+.displayNone {
+    display: none !important; 
+}
+
+@import "./mediaQueries600";
+@import "./mediaQueries1000";
+@import "./mediaQueries1500";

@@ -1,0 +1,53 @@
+@media screen and (min-width: 1000px) {
+    main {
+        .ghostBackground1 {
+            background-position: right 60%;
+            background-size: 110vw;
+        }
+        .slogan {
+            left: 64%;
+            top: 360px;
+        }
+        .blackBoxContent1 {
+            width: 756px;
+            height: 301px;
+            padding: 0;
+            top: 950px;
+            .bookingButton {
+                top: -400px;
+                right: 50px;
+            }
+        }
+        .ghostBackground2 {
+            min-height: 1300px;
+            background-size: 100vw;
+        }
+        .blackBoxContent2 {
+            top: 1700px;
+        }
+        .blackBoxContent3 {
+            top: 2450px;
+            width: 756px;
+            height: 456px;
+            padding: 0;
+            left: 35%;
+            h2 {
+                margin-top: 2em;
+            }
+            p {
+                width: 369px;
+            }
+            form {
+                padding: 0;
+                input, textarea {
+                    width: 369px;
+                }
+            }
+        }
+        .ghostBackground3 {
+            min-height: 1500px;
+            background-size: 100vw;
+            background-position: center 70%;
+        }
+    }
+}

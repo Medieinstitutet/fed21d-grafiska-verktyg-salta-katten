@@ -1,0 +1,15 @@
+$DarkNight: black;
+$PaleGhost: #F2F2F2;
+$Pumpkin: #FF7A00;
+$Slime: #48FF7B;
+
+@mixin flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
